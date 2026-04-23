@@ -7,7 +7,7 @@ def index_view(request):
 
 
 def dias_view(request):
-    dias = Dia.objects.all() 
+    dias = Dia.objects.all()
 
     context = {'dias': dias}
 
