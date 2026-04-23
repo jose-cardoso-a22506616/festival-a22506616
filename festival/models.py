@@ -12,7 +12,6 @@ class Palco(models.Model):
     def __str__(self):
         return self.nome
 
-
 class Dia(models.Model):
     data = models.DateField()
 
